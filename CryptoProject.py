@@ -10,7 +10,7 @@ def encrypt(s):
 
 
         if c == ' ':
-            code = -',' + '_'
+            code = '_'
 
         else:
             code = str((('abcdefghijklmnopqrstuvwxyz'.index(c ) +key) % 26)) + ','
